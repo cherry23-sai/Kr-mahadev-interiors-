@@ -28,7 +28,8 @@ const Contact = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      await axios.post('http://localhost:3000/api/contact', formData);
+      const apiUrl = `${import.meta.env.VITE_API_BASE_URL}/api/contact`;
+      await axios.post(apiUrl, formData);
       toast({
         title: "Message Sent! ✅",
         description: "Thank you for contacting us. We'll get back to you soon.",
