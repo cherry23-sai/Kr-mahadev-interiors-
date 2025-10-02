@@ -15,7 +15,10 @@ connectDB();
 
 // --- MIDDLEWARE SETUP (Correct Order) ---
 // 1. Enable CORS
-app.use(cors()); 
+const corsOptions = {
+  origin: 'https://kr-mahadev-interiors.vercel.app/', 
+};
+app.use(cors(corsOptions)); 
 // 2. Add the JSON parser **BEFORE** the routes
 app.use(express.json()); 
 
