@@ -4,19 +4,19 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     name: "Priya Sharma",
-    location: "Mumbai",
+    location: "Yousufguda",
     text: "KR Mahadev transformed our kitchen into a modern masterpiece. The attention to detail and quality of work exceeded our expectations. Highly recommended!",
     rating: 5,
   },
   {
     name: "Rajesh Kumar",
-    location: "Delhi",
+    location: "Ammerpet",
     text: "The team designed a beautiful wardrobe for our bedroom. The craftsmanship is excellent and the design perfectly matches our style. Very satisfied with their work!",
     rating: 5,
   },
   {
     name: "Anjali Patel",
-    location: "Bangalore",
+    location: "Kukatpally",
     text: "Professional, creative, and reliable. They completed our false ceiling project on time and the result is stunning. The lighting adds such elegance to our home.",
     rating: 5,
   },

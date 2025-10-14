@@ -2,13 +2,13 @@ import kitchenImage from "@/assets/kitchen-modern.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-background">
+    <section id="about" className="py-20 bg-[#9da993] text-foreground">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-accent">About Us</h2>
-            <div className="space-y-4 text-lg text-muted-foreground">
+            <div className="space-y-4 text-lg colour-white">
               <p>
                 At KR Mahadev Interior Design, we believe that every space tells a story. 
                 With years of experience in crafting exceptional interiors, we specialize in 

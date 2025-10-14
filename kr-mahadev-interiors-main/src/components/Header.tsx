@@ -29,8 +29,13 @@ const Header = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("home")}
-            className="text-xl md:text-2xl font-bold text-accent hover:text-primary transition-colors"
+            className="flex items-center pl-4 text-xl md:text-2xl font-bold text-accent hover:text-primary transition-colors"
           >
+            <img
+              src="/pic.png" // <-- Replace with your logo path
+              alt="#"
+              className="h-8 w-8 md:h-10 md:w-10 object-contain mr-3"
+            />
             KR Mahadev Interior Design
           </button>
 
