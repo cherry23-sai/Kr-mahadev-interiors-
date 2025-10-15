@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-bedroom.jpg";
+// import heroImage from "@/assets/hero-bedroom.jpg";
 
 const Hero = () => {
   const scrollToGallery = () => {
@@ -14,14 +14,14 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={heroImage}
+          src="/social-preview-image.jpg" // <-- Replace with your hero image path
           alt="Modern bedroom interior"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain" // changed from object-cover to object-contain
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30" />
       </div>
 
-      {/* Content */}
+      {/* Content
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in">
           Modern Interiors Tailored for Your Lifestyle
@@ -37,7 +37,7 @@ const Hero = () => {
         >
           Explore Our Work
         </Button>
-      </div>
+      </div> */}
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
